@@ -37,8 +37,3 @@ Biztonsági viselkedés:
   - restore VIS-hely alapján történik;
   - foglalt slotot nem ír felül;
   - másik parancsnokon lévő mentett EID-t nem mozgat át automatikusan.
-
-Megjegyzés:
-  A config.json a jelszót jelenleg egyszerű szövegként tárolja, ugyanúgy, mint a
-  korábbi konzolos verzió. Ha később szövetségi terjesztésre készül az .exe,
-  ezt érdemes biztonságosabb hitelesítési tárolásra cserélni.
