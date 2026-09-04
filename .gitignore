@@ -1,0 +1,69 @@
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*.pyo
+
+.venv/
+venv/
+env/
+
+.pytest_cache/
+.mypy_cache/
+
+
+# =========================
+# Credentials / local data
+# NEVER COMMIT THESE
+# =========================
+
+profiles.json
+config.json
+
+.env
+.env.*
+!.env.example
+
+
+# =========================
+# Account-specific data
+# =========================
+
+commander_loadouts/
+
+gli_dump.json
+*_dump.json
+protocol_dump*.jsonl
+
+debug/
+logs/
+*.log
+
+
+# =========================
+# Build output
+# =========================
+
+build/
+dist/
+*.spec
+
+
+# =========================
+# Archives
+# =========================
+
+*.zip
+
+
+# =========================
+# IDE / OS
+# =========================
+
+.vscode/
+.idea/
+
+Thumbs.db
+.DS_Store
